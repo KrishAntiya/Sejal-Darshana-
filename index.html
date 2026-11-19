@@ -145,7 +145,7 @@ h2{font-family:var(--caps);font-weight:500;font-size:clamp(2rem,7vw,2.8rem);lett
 @media (max-height:680px){.cover-top .names{font-size:2.1rem}.env{width:min(72vw,370px)}}
 
 /* ================= Hero ================= */
-.hero{padding-top:0;padding-bottom:50px}
+.hero{padding-top:0;padding-bottom:16px}
 .hero-art{position:relative;width:100%;max-width:1400px;margin:0 auto}
 .hero-art img{display:block;width:100%;height:auto;min-height:260px;max-height:70vh;object-fit:cover;object-position:center 70%;
   -webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 98%),linear-gradient(to right,transparent 0,#000 7%,#000 93%,transparent 100%);-webkit-mask-composite:source-in;
@@ -170,6 +170,8 @@ h2{font-family:var(--caps);font-weight:500;font-size:clamp(2rem,7vw,2.8rem);lett
 .link-line:hover{color:var(--gold-deep)}
 
 /* ================= Families ================= */
+section#families{padding-top:12px}
+.ganesha{display:block;width:clamp(70px,19vw,92px);height:auto;margin:0 auto 22px}
 .fam h3{font-family:var(--script);font-weight:400;font-size:clamp(2.4rem,9vw,2.8rem);margin:0;line-height:1.15}
 .fam p{margin:4px 0 0;font-size:1.08rem;color:var(--ink-soft)}
 .fam .rel{font-family:var(--caps);font-weight:500;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:14px}
@@ -363,9 +365,10 @@ footer .tag{font-family:var(--caps);font-weight:600;font-size:1.1rem;letter-spac
   <section id="families">
     <div class="wash w-peach" style="left:-18%;top:10%"></div>
     <div class="wash w-lav" style="right:-20%;bottom:0"></div>
-    <div class="floral" style="rotate:-20deg;left:-46px;top:-56px;--dur:8s" aria-hidden="true"><img src="img/floral1.webp" alt=""></div>
+    <div class="floral" style="rotate:-20deg;left:-46px;top:-6px;--dur:8s" aria-hidden="true"><img src="img/floral1.webp" alt=""></div>
     <div class="floral flip" style="right:-44px;bottom:-120px;width:clamp(130px,26vw,250px);--dur:9s;--origin:90% 90%" aria-hidden="true"><img src="img/floral3.webp" alt=""></div>
     <div class="wrap">
+      <img class="ganesha" src="img/ganesha.webp" alt="Lord Ganesha" width="304" height="400">
       <p class="eyebrow">Three families, two promises</p>
       <h2>Our Families</h2>
       <img class="divider" src="img/divider.webp" alt="">
