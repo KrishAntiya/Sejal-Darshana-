@@ -522,7 +522,10 @@ footer .tag{font-family:var(--caps);font-weight:600;font-size:1.1rem;letter-spac
   /* Our Story: add photos to img/ and list them here, e.g.
      {img:"img/story1.webp", cap:"Where it all began", when:"Gadh · 2022"}
      The section appears automatically once this list has photos. */
-  const STORY = [];
+  const STORY = [
+    {img:"img/story1.webp", cap:"Two hearts, one journey", when:"", pos:"50% 42%"},
+    {img:"img/story2.webp", cap:"Side by side, always", when:"", pos:"50% 38%"}
+  ];
   /* ===================================================== */
 
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
