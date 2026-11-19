@@ -19,7 +19,7 @@
 <meta name="theme-color" content="#FBF8F4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+SC:wght@400;500;600&family=Pinyon+Script&family=Noto+Serif+Gujarati:wght@600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+SC:wght@400;500;600&family=Pinyon+Script&display=swap">
 <style>
 :root{
   color-scheme:light;
@@ -168,15 +168,6 @@ h2{font-family:var(--caps);font-weight:500;font-size:clamp(2rem,7vw,2.8rem);lett
 .countdown span{font-family:var(--caps);font-weight:500;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
 .link-line{display:inline-block;margin-top:22px;font-family:var(--caps);font-weight:600;font-size:.92rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:3px}
 .link-line:hover{color:var(--gold-deep)}
-
-/* ================= Ganesha ================= */
-.ganesha{display:grid;justify-items:center;gap:6px;margin:48px auto 0;max-width:440px}
-.g-art{position:relative;width:clamp(140px,40vw,190px)}
-.g-art::before{content:"";position:absolute;inset:-18%;border-radius:50%;background:radial-gradient(closest-side,rgba(244,205,176,.55),rgba(237,184,192,.25) 60%,transparent);z-index:-1}
-.g-art img{display:block;width:100%;height:auto;animation:glow 4s ease-in-out infinite alternate}
-@keyframes glow{from{filter:drop-shadow(0 2px 6px rgba(176,138,69,.25))}to{filter:drop-shadow(0 2px 14px rgba(176,138,69,.5))}}
-.g-mantra{font-family:"Noto Serif Gujarati",var(--serif);font-weight:600;font-size:1.35rem;color:var(--gold-deep);margin:8px 0 0}
-.g-shloka{font-style:italic;font-size:1.05rem;color:var(--ink-soft);margin:0;line-height:1.5;text-wrap:balance}
 
 /* ================= Families ================= */
 .fam h3{font-family:var(--script);font-weight:400;font-size:clamp(2.4rem,9vw,2.8rem);margin:0;line-height:1.15}
@@ -365,12 +356,6 @@ footer .tag{font-family:var(--caps);font-weight:600;font-size:1.1rem;letter-spac
         <div><b id="cd-s">00</b><span>Seconds</span></div>
       </div>
       <a class="link-line cal-link" target="_blank" rel="noopener">Add to Google Calendar</a>
-      <div class="ganesha">
-        <div class="g-art"><img src="img/ganesha.webp" alt="Lord Ganesha" width="552" height="640"></div>
-        <img class="divider" src="img/divider-small.webp" alt="" style="width:min(50%,180px);margin:10px auto 2px">
-        <p class="g-mantra">॥ શ્રી ગણેશાય નમઃ ॥</p>
-        <p class="g-shloka">Vakratunda Mahakaya Suryakoti Samaprabha<br>Nirvighnam Kuru Me Deva Sarva-Karyeshu Sarvada</p>
-      </div>
     </div>
   </section>
 
@@ -378,7 +363,7 @@ footer .tag{font-family:var(--caps);font-weight:600;font-size:1.1rem;letter-spac
   <section id="families">
     <div class="wash w-peach" style="left:-18%;top:10%"></div>
     <div class="wash w-lav" style="right:-20%;bottom:0"></div>
-    <div class="floral" style="rotate:-20deg;left:-46px;top:-10px;--dur:8s" aria-hidden="true"><img src="img/floral1.webp" alt=""></div>
+    <div class="floral" style="rotate:-20deg;left:-46px;top:-56px;--dur:8s" aria-hidden="true"><img src="img/floral1.webp" alt=""></div>
     <div class="floral flip" style="right:-44px;bottom:-120px;width:clamp(130px,26vw,250px);--dur:9s;--origin:90% 90%" aria-hidden="true"><img src="img/floral3.webp" alt=""></div>
     <div class="wrap">
       <p class="eyebrow">Three families, two promises</p>
