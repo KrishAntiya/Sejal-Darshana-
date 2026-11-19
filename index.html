@@ -68,7 +68,7 @@ h2{font-family:var(--caps);font-weight:500;font-size:clamp(2rem,7vw,2.8rem);lett
   background-color:#FBF6F4;background-image:url(img/paper.png),var(--grain);background-size:512px 512px,300px 300px;
   transition:opacity 1.1s ease,visibility 1.1s,transform 1.4s cubic-bezier(.5,0,.2,1)}
 #cover.gone{opacity:0;visibility:hidden;transform:scale(1.06)}
-#cover .wash{opacity:.62;width:clamp(300px,80vw,700px);animation:drift 18s ease-in-out infinite alternate}
+#cover .wash{opacity:.5;width:clamp(300px,80vw,700px);animation:drift 18s ease-in-out infinite alternate}
 @keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(16px,-12px) scale(1.07)}}
 .lattice{position:absolute;inset:-20px;pointer-events:none;opacity:.12;
   background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'><g fill='none' stroke='%23B08A45' stroke-width='.8'><path d='M30 3 Q40 20 57 30 Q40 40 30 57 Q20 40 3 30 Q20 20 30 3Z'/><circle cx='30' cy='30' r='4'/><circle cx='0' cy='0' r='4'/><circle cx='60' cy='0' r='4'/><circle cx='0' cy='60' r='4'/><circle cx='60' cy='60' r='4'/></g></svg>");
